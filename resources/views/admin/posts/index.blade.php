@@ -32,7 +32,7 @@
 											{{ $post->title }}
 										</a>
 									</td>
-                                 <td>{{ $post->user->email }}</td                                
+                                 <td>{{ $post->user->email }}</td>                               
 									<td>
                                     <a href="{{ route('admin.posts.edit', $post->id) }}" class="btn btn-default">
                                         <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
@@ -51,6 +51,7 @@
 				{{ 'No Posts!' }}
 				@endif
             </div>
+			{!! $posts->render() !!}
         </div>
     </div>
 @stop

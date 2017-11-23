@@ -22,7 +22,7 @@ class Post extends Model
 	 *
 	 * @var string
 	 */
-	 protected static $usersModel = 'app\Models\Users';
+	 protected static $usersModel = 'App\Models\Users';
 	 
 	 
 	 /**
@@ -30,7 +30,7 @@ class Post extends Model
 	 *
 	 * @var string
 	 */
-	 protected static $commentsModel = 'app\Models\Comment';
+	 protected static $commentsModel = 'App\Models\Comment';
 	 
 	 
 	 /**
