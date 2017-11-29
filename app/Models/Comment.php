@@ -19,7 +19,7 @@ class Comment extends Model
 	 *
 	 * @var string
 	 */
-	 protected static $usersModel = 'app\Models\Users';
+	 protected static $usersModel = 'App\Models\Users';
 	 
 	 
 	 /**
@@ -27,7 +27,7 @@ class Comment extends Model
 	 *
 	 * @var string
 	 */
-	 protected static $postsModel = 'app\Models\Post';
+	 protected static $postsModel = 'App\Models\Post';
 	 
 	 
 	 /**
